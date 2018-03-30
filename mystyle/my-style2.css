@@ -1,0 +1,203 @@
+/*nav bar style*/
+.navbar.navbar-inverse{
+	margin-bottom: 0px;
+	background-color: #28A6DE;
+	color: antiquewhite;
+	border-color: #28A6DE;
+}
+
+.navbar.navbar-inverse .navbar-nav>li>a{
+	color:#FBFBFD;
+	font: 3vh 'Open Sans' , sans-serif;
+}
+
+.navbar.navbar-inverse .navbar-nav>li>a:hover{
+	background-color: #EE4250;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-toggle{
+	border:0px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #EE4250;
+}
+
+@media screen and (min-width: 767px){
+	.navbar-inverse .navbar-collapse{
+		float: right;
+	}
+}
+/*end of nav bar style*/
+
+
+/*h1 and pic1*/
+.my-conteiner .first-image{
+    display: flex;
+	flex-direction: column;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.first-image h1{
+	padding: 2.5vh;
+	width: 60%;
+	font: 7vh 'Titillium Web', sans-serif;
+}
+
+.first-image div
+{
+	flex: 1;
+	color: #2EC6F7;
+	
+}
+
+.first-image .about-me{
+	width: 30%;
+	background: url(../images/logo.png) no-repeat;
+	background-size:contain;
+	padding: 3vh;
+}
+
+@media screen and (max-width: 700px){
+.first-image
+{
+	background-image: url(../images/ev-232339-unsplash-700x700.jpg);
+	height: 50vh;
+	}
+}
+
+@media screen and (min-width: 701px){
+.first-image
+{
+	background-image: url(../images/ev-232339-unsplash-large.jpg);
+	height: 90vh;
+	}
+}
+/*h1 and pic1 end*/
+
+
+
+
+
+
+/*portfolio*/
+h2{
+	text-align: center;
+	width: 100%;
+	font-size: 4.5vh;
+}
+
+.portfolio {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-family: 'Roboto Slab', serif;
+	margin: auto;
+	color: #f6f6f6;
+	background-color: #2EC6F7;
+	padding: 7vh;
+	}
+	
+
+.portfolio img{
+	width:100%;
+	padding: 5vh;
+	height: 60%;
+    
+}
+
+button{
+	text-align: center;
+	border: 5px solid #0B9BE1;
+	background-color: #0B9BE1;
+	border-radius: 30vh;
+	font-size: 3vh;
+	
+	
+}
+
+a:link{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+button:hover{
+	background-color: #EE4250;
+	border: 5px solid #EE4250;
+}
+
+.portfolio figure{
+	max-height: 50%;
+}
+
+@media screen and (min-width: 650px){
+.portfolio figure{
+	max-width: 33.3%;
+	}
+}
+
+
+/*portfolio end*/
+
+
+
+/*aboutme and myphoto conteiner*/
+.me {
+	text-align: center;
+	display:flex;
+	font-family:'Roboto Slab', serif ;
+	background-color: #44A0D8;
+	color: #f6f6f6;
+	padding: 3.5vh;
+	
+}
+
+.me img{
+	border-radius: 50%;
+	max-width:20vh;
+	margin-top: 3vh;
+	
+}
+
+div .aboutMe{
+		width: 50%;
+		margin-left: 10%;
+		
+}
+
+div .my-photo{
+		width: 50%;
+		
+		
+}
+
+h3{
+	text-align: center;
+	width: 100%;
+	font-size: 5vh;
+	
+}
+/*aboutme and myphoto conteiner end*/
+
+
+
+/*footer*/
+.my-footer{
+	background-color: #034f84;
+	text-align: center;
+	flex-direction: column;
+	position: relative;
+	color: #f6f6f6;
+}
+
+.footer{
+	height: 20vh;
+	padding: 5vh;
+}
+/*footer end*/
+
+
+
+
